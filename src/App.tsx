@@ -105,14 +105,16 @@ const Hero = () => {
           </p>
           
           {/* CTA Button */}
-          <button
-            onClick={scrollToTestimonials}
+          <a
+            href="https://info.novolabs.xyz/widget/form/kuNds4kU7sArnpVpkRI7"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[rgb(255,58,32)] text-white rounded-full text-base sm:text-lg hover:bg-[rgb(255,70,45)] transition-all shadow-lg shadow-[rgb(255,58,32)]/20 hover:shadow-[rgb(255,58,32)]/40 hover:scale-105"
             style={{ fontWeight: 700, fontFamily: 'Geist, sans-serif' }}
           >
-            Ver testimonios
+            Agendar entrevista de inscripción
             <ArrowRight className="w-5 h-5" />
-          </button>
+          </a>
         </motion.div>
       </div>
     </div>
